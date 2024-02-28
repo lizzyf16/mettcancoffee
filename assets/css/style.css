@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    }
+
+h3{
+        font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: 400;
+}
+#navbar {
+    background-color: #000f08;
+    padding: 28px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin: 0 30px;
+
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    padding: 52px 50px 179px;
+    background-size: cover;
+    background-position: center;
+}
+
+#tituloprinci, #subtituloprinci {
+    text-align: end;
+    color: white;
+}
+
+#tituloprinci {
+    font-size: 60px;
+}
+
+#subtituloprinci {
+    font-size: 40px;
+}
+
+#centrado {
+    text-align: center;
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+
+#centrado p {
+    font-size: 25px;
+    text-align: center;
+}
+
+#centrado h2 {
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+#centrado img {
+    width: 519px;
+    height: 344px;
+}
+
+#proximas-charlas {
+    font-size: 0px;
+    padding: 90px 0px;
+    background-color: #A4452C;
+    color: white;
+}
+#proximas-charlas .wrapper-img{
+    display: inline-block;
+    width: 40%;
+    text-align: end;
+}
+
+#proximas-charlas .wrapper-texto{
+    display: inline-block;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 100px;
+    
+}
+#proximas-charlas .wrapper-texto h3{
+    font-size:40px;
+}
+
+#proximas-charlas .wrapper-texto h4{
+    font-size:33px;
+}
+
+#proximas-charlas .wrapper-texto small{
+    font-size:20px;
+}
+
+#proximas-charlas .wrapper-texto p{
+    font-size:25px;
+}
+#footerprincipal{
+    background-color: #000f08;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#footerprincipal p{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 45px;
+}
+#footerprincipal .wrapper-iconos {
+    font-size: 60px;
+}
+
+#eventosA{
+    text-align: center;
+    padding-top: 143px;
+    padding-bottom: 162px;
+}
+#eventosA h2{
+    padding-bottom: 75px;
+}
+#eventosA .cardevent{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+#eventosA div{
+    margin-left: 72px;
+    margin-right: 72px;
+}
+#eventosA img{
+    height: 244px;
+    width: 415px;
+    margin-bottom: 30px;
+}
